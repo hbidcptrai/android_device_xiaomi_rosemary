@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/rosemary/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Blur
-TARGET_ENABLE_BLUR := true
+TARGET_ENABLE_BLUR := false
 
 PRODUCT_NAME := lineage_rosemary
 PRODUCT_DEVICE := rosemary
