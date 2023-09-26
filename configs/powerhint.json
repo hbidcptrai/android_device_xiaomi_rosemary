@@ -489,7 +489,7 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMaxFreq",
-      "Duration": 5000,
+      "Duration": 3000,
       "Value": "2000000"
     },
     {
