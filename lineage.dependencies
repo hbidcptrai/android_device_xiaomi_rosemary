@@ -16,6 +16,10 @@
     "target_path": "vendor/gcgop"
   },
   {
+    "repository": "android_vendor_gapps-rosemary",
+    "target_path": "vendor/gapps"
+  },
+  {
     "repository": "android_kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785"
   }

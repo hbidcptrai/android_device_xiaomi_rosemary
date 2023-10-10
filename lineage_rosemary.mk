@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/rosemary/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Additions
+$(call inherit-product-if-exists, vendor/gapps/common.mk)
+
 # Kasumi's GCam GO
 GCGOP_VENDOR_DIR ?= vendor/gcgop
 $(call inherit-product-if-exists, $(GCGOP_VENDOR_DIR)/config.mk)
