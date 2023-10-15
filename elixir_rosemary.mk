@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/rosemary/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/elixir/config/common_full_phone.mk)
 
 # Additions
 $(call inherit-product-if-exists, vendor/gapps/common.mk)
@@ -24,7 +24,7 @@ $(call inherit-product-if-exists, $(GCGOP_VENDOR_DIR)/config.mk)
 # Blur
 TARGET_ENABLE_BLUR := false
 
-PRODUCT_NAME := lineage_rosemary
+PRODUCT_NAME := elixir_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
